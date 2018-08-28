@@ -11,4 +11,4 @@ COPY . /code
 
 WORKDIR /code
 
-CMD ["flask", "run", "--host=0.0.0.0"]
+#CMD ["flask", "run", "app.py --host=0.0.0.0"]
